@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Infinio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#pocetna" class="logo">
+        <img src="img/logo.png" alt="Infinio logo" class="logo-img" />
+        <span class="logo-text">Infinio</span>
+      </a>
+
+      <!-- Mobile nav toggle -->
+      <button type="button" class="nav-toggle" aria-label="Otvori izbornik">
+        <span class="hamburger"></span>
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="#pocetna">Početna</a></li>
+        <li><a href="#o-nama">O nama</a></li>
+        <li><a href="#usluge">Usluge</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+
+      <div class="lang-switcher">
+        <a href="index.html" title="Hrvatski"><img src="img/flags_hr.png" alt="HR" class="flag" /></a>
+        <a href="index_en.html" title="English"><img src="img/flags_gb.png" alt="EN" class="flag" /></a>
+        <a href="index_de.html" title="Deutsch"><img src="img/flags_de.png" alt="DE" class="flag" /></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- WRAPPER ZA SEKCIJE -->
+  <div class="sections-row">
+
+    <!-- HERO / POČETNA -->
+    <section id="pocetna" class="section pocetna">
+      <div class="container">
+        <h1>Otkrijte puni potencijal svog Google Business profila</h1><br>
+        <h2>Poboljšajte online vidljivost uz stručnu i efikasnu podršku</h2>
+        <img src="img/hero.png" alt="Hero" class="hero-img" />
+      </div>
+    </section>
+
+    <!-- O NAMA -->
+    <section id="o-nama" class="section o-nama">
+      <div class="container">
+        <h2>O nama</h2>
+        <p>
+          <strong>Mi smo specijalizovan tim fokusiran na unapređenje online prisutnosti malih i srednjih biznisa putem profesionalnog 
+            upravljanja Google Business profilima.Naš cilj je veća vidljivost u Google pretragama, bolja reputacija kroz 
+            kvalitetne recenzije i tehnički ispravno postavljeni profili, usklađeni sa SEO standardima.Radimo individualno s 
+            klijentima, transparentno i u skladu s Googleovim smjernicama, s jasnim fokusom na dugoročne rezultate.</strong>
+        </p>
+        <img src="img/usluga.png" alt="Usluga" class="about-img" />
+      </div>
+    </section>
+
+    <!-- USLUGE -->
+    <section id="usluge" class="section usluge">
+      <div class="container">
+        <h2 class="section-title">Privucite i osvojite nove klijente uz Infinio Solutions</h2>
+        <div class="features-grid">
+          <div class="feature-item">
+            <div class="feature-icon">
+              <!-- SVG ili <i> ikona -->
+            </div>
+            <div class="feature-content">
+              <img src="img/icon1.png" alt="" class="title-icon">
+              <h3 class="feature-title">Poboljšajte vidljivost 
+              </h3>
+              <p class="feature-description">
+                Poboljšajte rangiranje u Googleovim lokalnim rezultatima kako bi vas pronašlo više klijenata.
+                Osigurajte rast poslovanja uz profesionalno optimiziran Google Business profil i web stranicu.
+              </p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">
+              <!-- SVG ili <i> ikona -->
+            </div>
+            <div class="feature-content">
+              <img src="img/icon2.png" alt="" class="title-icon">
+              <h3 class="feature-title">Osvojite povjerenje</h3>
+              <p class="feature-description">
+                Potencijalni klijenti čitaju recenzije prije nego što se odluče za vašu uslugu.
+                Uz pomoć našeg tima dobiti ćete više kvalitetnih recenzija, poboljšati rangiranje i privući nove klijente.
+              </p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">
+              <!-- SVG ili <i> ikona -->
+            </div>
+            <div class="feature-content">
+              <img src="img/icon3.png" alt="" class="title-icon"><br>
+  
+              <h3 class="feature-title">Optimizirajte web stranicu</h3>
+              <p class="feature-description">
+                Profesionalno optimizirana web stranica doprinosi boljem rangiranju u rezultatima pretrage na Googl-u.
+                Pobrinuti ćemo se za izradu web stranice sa SEO optimizacijom stranice i prilagodbom koja potiče rast.
+              </p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">
+              <!-- SVG ili <i> ikona -->
+            </div>
+            <div class="feature-content">
+              <img src="img/icon4.png" alt="" class="title-icon">
+              <h3 class="feature-title">Povećajte broj klijenata</h3>
+              <p class="feature-description">
+                Pomažemo Vam da posjetioce pretvorite u klijente tako što osiguravamo da vaš Google Business profil 
+                i web stranica budu jasno optimizovani za jednostavno zakazivanje, kontakt i dolazak na vašu lokaciju.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+
+    <!-- KONTAKT -->
+    <section id="kontakt" class="section kontakt">
+      <div class="container">
+        <h2>Kontaktirajte nas i napravimo prvi korak zajedno</h2>
+        <div class="contact-content">
+          <img src="img/kontakt.png" alt="Kontakt" class="contact-img" />
+          <form action="https://formspree.io/f/mpwdpobz" method="POST">
+            <div class="form-row">
+              <input type="text" name="firstName" placeholder="Ime *" required />
+              <input type="text" name="lastName" placeholder="Prezime *" required />
+            </div>
+            <div class="form-row">
+              <input type="email" name="email" placeholder="E-pošta *" required />
+              <input type="tel" name="phone" placeholder="Telefon" />
+            </div>
+            <textarea name="message" placeholder="Poruka *" class="form-textarea" required></textarea>
+            <button type="submit">Pošalji</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </div> <!-- /.sections-row -->
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <img src="img/logo.png" alt="Logo" class="footer-logo" />
+      <p>E-pošta: info@infinio-solutions.com</p>
+      <p>Telefon: +387 61 262 227</p>
+      <p>Bosna i Hercegovina</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const navToggle    = document.querySelector('.nav-toggle');
+      const navLinks     = document.querySelector('.nav-links');
+      const langSwitcher = document.querySelector('.lang-switcher');
+
+      if (navToggle) {
+        navToggle.addEventListener('click', function() {
+          navLinks.classList.toggle('active');
+          langSwitcher.classList.toggle('active');
+        });
+      }
+    });
+  </script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const navbar = document.querySelector('.navbar');
+    const navHeight = navbar.offsetHeight;
+
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', e => {
+        const targetID = link.getAttribute('href');
+        if (targetID.length > 1) {
+          e.preventDefault();
+          const targetEl = document.querySelector(targetID);
+          if (targetEl) {
+            const offsetTop = targetEl.getBoundingClientRect().top + window.pageYOffset - navHeight;
+            window.scrollTo({ top: offsetTop, behavior: 'smooth' });
+          }
+        }
+      });
+    });
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Infinio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#pocetna" class="logo">
+        <img src="img/logo.png" alt="Infinio logo" class="logo-img" />
+        <span class="logo-text">Infinio</span>
+      </a>
+
+      <!-- Mobile nav toggle -->
+      <button type="button" class="nav-toggle" aria-label="Otvori izbornik">
+        <span class="hamburger"></span>
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="#pocetna">Home</a></li>
+        <li><a href="#o-nama">About Us</a></li>
+        <li><a href="#usluge">Services</a></li>
+        <li><a href="#kontakt">Contact</a></li>
+      </ul>
+
+      <div class="lang-switcher">
+        <a href="index.html" title="Hrvatski"><img src="img/flags_hr.png" alt="HR" class="flag" /></a>
+        <a href="index_en.html" title="English"><img src="img/flags_gb.png" alt="EN" class="flag" /></a>
+        <a href="index_de.html" title="Deutsch"><img src="img/flags_de.png" alt="DE" class="flag" /></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- WRAPPER ZA SEKCIJE -->
+  <div class="sections-row">
+
+    <!-- HERO / POČETNA -->
+    <section id="pocetna" class="section pocetna">
+      <div class="container">
+        <h1>Unlock the full potential of your Google Business Profile</h1><br>
+        <h2>Boost your online presence with professional and reliable support</h2>
+        <img src="img/hero.png" alt="Hero" class="hero-img" />
+      </div>
+    </section>
+
+    <!-- O NAMA -->
+    <section id="o-nama" class="section o-nama">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>
+          <strong>We are a specialized team focused on improving the online presence of small and medium-sized businesses through
+            professional Google Business Profile management.Our goal is to increase visibility in Google search results, 
+            enhance online reputation through high-quality reviews, and ensure technically accurate profiles aligned with SEO 
+            best practices.We work with clients individually, transparently, and in full compliance with Google’s guidelines – 
+            with a clear focus on long-term results.</strong>
+        </p>
+        <img src="img/usluga.png" alt="Usluga" class="about-img" />
+      </div>
+    </section>
+
+    <!-- USLUGE -->
+    <section id="usluge" class="section usluge">
+      <div class="container">
+        <h2 class="section-title">Attract and win new clients with Infinio Solutions.</h2>
+        <div class="features-grid">
+          <div class="feature-item">
+            <div class="feature-icon">
+              <!-- SVG ili <i> ikona -->
+            </div>
+            <div class="feature-content">
+              <img src="img/icon1.png" alt="" class="title-icon">
+              <h3 class="feature-title">Boost your visibility
+              </h3>
+              <p class="feature-description">
+                Boost your ranking in Google’s local search results to attract more customers. 
+                Ensure business growth with a professionally optimized Google Business Profile and website.
+              </p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">
+              <!-- SVG ili <i> ikona -->
+            </div>
+            <div class="feature-content">
+              <img src="img/icon2.png" alt="" class="title-icon">
+              <h3 class="feature-title">Earn trust</h3>
+              <p class="feature-description">
+                Potential clients read reviews before deciding on your service. With our team’s help, you’ll 
+                receive more high-quality reviews, improve your ranking, and attract new customers.
+              </p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">
+              <!-- SVG ili <i> ikona -->
+            </div>
+            <div class="feature-content">
+              <img src="img/icon3.png" alt="" class="title-icon"><br>
+  
+              <h3 class="feature-title">Optimize your website.</h3>
+              <p class="feature-description">
+                A professionally optimized website contributes to higher rankings in Google search results. 
+                We will take care of building a website with on-page SEO optimization and customization that drives growth.
+              </p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">
+              <!-- SVG ili <i> ikona -->
+            </div>
+            <div class="feature-content">
+              <img src="img/icon4.png" alt="" class="title-icon">
+              <h3 class="feature-title">Increase your number of clients.</h3>
+              <p class="feature-description">
+                We help you turn visitors into clients by ensuring your Google Business Profile and 
+                website are clearly optimized for easy booking, contact, and directions to your location.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+
+    <!-- KONTAKT -->
+    <section id="kontakt" class="section kontakt">
+      <div class="container">
+        <h2>Contact us and let’s take the first step together</h2>
+        <div class="contact-content">
+          <img src="img/kontakt.png" alt="Kontakt" class="contact-img" />
+          <form action="https://formspree.io/f/mpwdpobz" method="POST">
+            <div class="form-row">
+              <input type="text" name="firstName" placeholder="Ime *" required />
+              <input type="text" name="lastName" placeholder="Prezime *" required />
+            </div>
+            <div class="form-row">
+              <input type="email" name="email" placeholder="E-pošta *" required />
+              <input type="tel" name="phone" placeholder="Telefon" />
+            </div>
+            <textarea name="message" placeholder="Poruka *" class="form-textarea" required></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </div> <!-- /.sections-row -->
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <img src="img/logo.png" alt="Logo" class="footer-logo" />
+      <p>E-mail: info@infinio-solutions.com</p>
+      <p>Phone: +387 61 262 227</p>
+      <p>Bosnia and Herzegovina</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const navToggle    = document.querySelector('.nav-toggle');
+      const navLinks     = document.querySelector('.nav-links');
+      const langSwitcher = document.querySelector('.lang-switcher');
+
+      if (navToggle) {
+        navToggle.addEventListener('click', function() {
+          navLinks.classList.toggle('active');
+          langSwitcher.classList.toggle('active');
+        });
+      }
+    });
+  </script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const navbar = document.querySelector('.navbar');
+    const navHeight = navbar.offsetHeight;
+
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', e => {
+        const targetID = link.getAttribute('href');
+        if (targetID.length > 1) {
+          e.preventDefault();
+          const targetEl = document.querySelector(targetID);
+          if (targetEl) {
+            const offsetTop = targetEl.getBoundingClientRect().top + window.pageYOffset - navHeight;
+            window.scrollTo({ top: offsetTop, behavior: 'smooth' });
+          }
+        }
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
