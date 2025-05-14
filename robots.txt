@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://infinio-solutions.com/sitemap.xml
